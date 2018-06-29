@@ -1,6 +1,7 @@
 # maze-generator
 
 Random Maze Generator (Depth-first Search) with Path Finding
+I used this (http://code.activestate.com/recipes/578356-random-maze-generator/) and added interface for generating and solving the maze. 
 
 INTERFACE:
 
@@ -16,7 +17,7 @@ to print maze simply use print(maze_obj)
 
 .end()			<-	get end point tuple (x,y)
 
-.solve(show_progress*)	<-	solve the maze,
+.solve(show_progress*)	<-	solve the maze, I used my old code for path finding in 2D-grid of nodes
 
 .path()			<-	get path from start to exit**
 
