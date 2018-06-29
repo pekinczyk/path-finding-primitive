@@ -21,6 +21,6 @@ to print maze simply use print(maze_obj)
 .solvedMazeArray()	<-	get solved maze 2D-array**
 
 
-* - show_progress - display algorithm progress
+( * - show_progress - optional, display algorithm progress )
 
-** - only after maze is solved
+( ** - only after maze is solved )
